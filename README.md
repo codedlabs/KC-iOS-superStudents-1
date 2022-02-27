@@ -46,7 +46,7 @@ var NewArray = [NewStruct(prop1: "a", prop2: 1), NewStruct(pror1: "b", pror2: 2)
 #### تمرين
 
 
-
+### قم بعمل fork من رابط gitHub .
 
 #### 1. قم بإنشاء تطبيق جديد في XCode
 #### 2. قم بعمل struct بإسم CoronaDetails 
