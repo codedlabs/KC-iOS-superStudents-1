@@ -62,3 +62,5 @@ var NewArray = [NewStruct(prop1: "a", prop2: 1), NewStruct(pror1: "b", pror2: 2)
 4. قم بعمل متغير كمصفوفة من نوع الكائن لهذا ال struct بإسم CoronaNewCases
 5. قم بعرض هذه الأسماء على صفحة التطبيق كما هو موضح في الصورة
 
+
+<img width="291" alt="corona App" src="https://user-images.githubusercontent.com/60436597/155864966-0d2950db-0ba4-41fa-8407-1fac1be46ea9.png">
