@@ -1,69 +1,82 @@
-# مصفوفة من الكائنات
+# <p dir="rtl">
+فيديوهات الدرس</p>
 
-## * عمل struct
 
-#### تعريف struct بوضع الاسم ٫ بهذه الطريقة 
+
+
+* [Binding](https://youtu.be/Kq5-KXVWDpA)  
+
+---
+
+
+# <p dir="rtl">
+شرح الدرس</p>
+
+
+
+<p dir="rtl">
+
+* ال Binding يسمح لك بتحكم بقيمة المتغير مثال لو كان عندي متغير وابي اغير القيمة الي داخل المتغير من صفحة ثانية نخلي المتغير من نوع State بالصفحة الي فيها المتغير الأصلي وداخل الصفحة الثانية نعرف متغير من نوع Binding</p>
+* شلون نقدر نستعمل Binding 
 
 ```
-struct NewStruct {
-                 ……
-                 ……
-                }
-```
-
-
-
-
-## * عمل الخصائص properties لل struct
-
-
-#### طريقة عمل الخصائص هكذا ٫ ووضع النوع لكل properties
-
-```
-struct NewStruct {
-         var prop1 : String
-         var prop2 : Int
-           }
+@Binding **var** isPlay : Bool
 ```
 
 
 
-## عمل المصفوفة array
 
-
-#### تعريف متغير ليكون مصفوفة تحتوي على كائنات من struct التي تم تعريفها ٫ بهذه الطريقة 
-
+* لازم تتاكد ان المتغير الي تبي تبدله من نوع State قبل لا تحط متغير من نوع Binding 
 
 
 ```
-var NewArray = [NewStruct(prop1: "a", prop2: 1), NewStruct(pror1: "b", pror2: 2)]
+@State **var** player1 : Bool = false
+```
+
+
+
+
+ 
+* بعد لازم نتاكد من اضافة علامة الدولار قبل اسم المتغير اللي نبي الصفحة الثانية تتحكم فيه
+
+```
+AnotherView(isPlay: $player1)
 ```
 
 
 
 ---
 
-#### تمرين
+## تمرين
 
 
-### قم بعمل fork من رابط gitHub .
 
-#### 1. قم بإنشاء تطبيق جديد في XCode
-#### 2. قم بعمل struct بإسم CoronaDetails 
-#### 3. قم بعمل خصائص لهذا struct بهذه الاسماء كمتغيرات :
 
- <p align="right"> 
-fullName - area - numberOfDoses
+
+1.قم بانشاء تطبيق جديد باسم TodoList
+
+
+
+2.قم بإنشاء هيكل Struct يحتوي على ٢ متغير isDone و Title
+
+
+
+3.في الصفحة قم بإنشاء عدد من المتغيرات من نوع State وتأكد من استخدام الهيكل للقيم 
+
+
+ 
+4.قم بتصميم شكل القائمة ثم قم باستخراجه 
+
+
+
+5.قم بإنشاء ٢ متغير  من نوع Binding 
+
+
+ 
+6.النتيجة النهائية للبرنامج كتالي:
+<p dir="rtl">
+
+
+<img src="/example.gif" width="200" alt="alt_text" title="image_tooltip">
 </p>
 
-
-
-#### 4. قم بعمل متغير كمصفوفة من نوع الكائن لهذا ال struct بإسم CoronaNewCases
-#### 5. قم بعرض هذه الأسماء على صفحة التطبيق كما هو موضح في الصورة
-### ملاحظة : بالمرفق ستجد الصورة الخضراء كورونا . او يمكنك اضافة أي صورة أخرى
-
-
-
-<p align="center">
-<img width="291" alt="corona App" src="https://user-images.githubusercontent.com/60436597/155864966-0d2950db-0ba4-41fa-8407-1fac1be46ea9.png">
-</p>
