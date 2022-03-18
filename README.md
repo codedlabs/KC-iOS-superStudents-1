@@ -1,15 +1,4 @@
-# <p dir="rtl">
-فيديوهات الدرس</p>
 
-
-
-
-* [Binding](https://youtu.be/Kq5-KXVWDpA)  
-
----
-
-
-# <p dir="rtl">
 شرح الدرس</p>
 
 
@@ -50,33 +39,9 @@ AnotherView(isPlay: $player1)
 ## تمرين
 
 
-
-
-
-1.قم بانشاء تطبيق جديد باسم TodoList
-
-
-
-2.قم بإنشاء هيكل Struct يحتوي على ٢ متغير isDone و Title
-
-
-
-3.في الصفحة قم بإنشاء عدد من المتغيرات من نوع State وتأكد من استخدام الهيكل للقيم 
-
-
- 
-4.قم بتصميم شكل القائمة ثم قم باستخراجه 
-
-
-
-5.قم بإنشاء ٢ متغير  من نوع Binding 
-
-
- 
-6.النتيجة النهائية للبرنامج كتالي:
 <p dir="rtl">
 
 
-<img src="/example.gif" width="200" alt="alt_text" title="image_tooltip">
+<img src="/image.gif" width="200" alt="alt_text" title="image_tooltip">
 </p>
 
